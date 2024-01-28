@@ -13,17 +13,19 @@ import Form from './Components/Form'
 import FormAnidado from './Components/FormAnidado'
 import NodeBox from './Components/NodeBox'
 import ChangeBorder from './Components/ChangeBorder'
+import RedPointUseEffect from './Components/RedPointerUseEffect'
 
 
 
 function App() {
-  
-
   return (
     <>
+    <RedPointUseEffect></RedPointUseEffect>
+
       <ChangeBorder>
          <NodeBox/>
         </ChangeBorder> 
+     
 
       <ChangeBorder>
           <Clock/>
@@ -67,6 +69,11 @@ function App() {
         <NameAge/>
       </ChangeBorder>
 
+    
+      
+   
+
+    
     
     
     </>
